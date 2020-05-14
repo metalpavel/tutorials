@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    color: #ccc;
+    background-color: #222;
+    font-family: monospace;
+}
+a {
+    color: #fff;
+}
+a:visited {
+    color: #fff;
+}
+#canvas {
+    cursor: default;
+}
+#window {
+    display: none;
+    height: 100%;
+    width: 100%;
+}
+#canvas-size {
+    height: 100%;
+    width: 100%;
+}

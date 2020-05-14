@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>SDL2 Emscripten WebAssembly Tutorial</title>
+    <meta name="description" content="SDL2 Emscripten WebAssembly Tutorial">
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+</head>
+<body>
+    <div id="loading">Loading...</div>
+
+    <div id="wasm">Your browser does not supporting <a href="https://webassembly.org/">WebAssembly.</a></div>
+
+    <div id="window">
+        <div><a>SDL2 for Web and Windows Tutorial.</a> Press SPACE to shift boxes. Press MOUSE BUTTON to stop camera rotation.</div>
+        <div id="canvas-size">
+            <canvas id="canvas" contenteditable="true" oncontextmenu="event.preventDefault()"></canvas>
+        </div>
+    </div>
+
+    <script type='text/javascript' src="module.js"></script>
+</body>
+</html>
